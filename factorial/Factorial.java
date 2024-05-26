@@ -4,7 +4,7 @@ public class Factorial {
     private static final int MOD = 100001;
 
     public static void main(String[] args) {
-        int number = 50000000; // Change this value to calculate the factorial of a different number
+        int number = 5000000; // Change this value to calculate the factorial of a different number
         System.out.println("Factorial of " + number + " mod " + MOD + " is " + factorial(number));
     }
 

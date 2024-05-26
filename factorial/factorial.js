@@ -8,5 +8,5 @@ function factorial(n) {
     return result;
 }
 
-let number = 50000000;  // Change this value to calculate the factorial of a different number
+let number = 5000000;  // Change this value to calculate the factorial of a different number
 console.log("Factorial of " + number + " mod " + MOD + " is " + factorial(BigInt(number)).toString());

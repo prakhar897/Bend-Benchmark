@@ -6,5 +6,5 @@ def factorial(n):
         result = (result * i) % MOD
     return result
 
-number = 50000000  # Change this value to calculate the factorial of a different number
+number = 5000000  # Change this value to calculate the factorial of a different number
 print(f"Factorial of {number} mod {MOD} is {factorial(number)}")

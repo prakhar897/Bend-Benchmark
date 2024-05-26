@@ -16,7 +16,6 @@ fi
 # Loop through each line (command) in the input file
 while IFS= read -r cmd; do
     # Print the command to the output file
-    echo "Command: $cmd" >> $output_file
     echo "----------------------" >> $output_file
     
     # Execute the command and capture its output

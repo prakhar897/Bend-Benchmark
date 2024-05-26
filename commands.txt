@@ -1,1 +1,18 @@
 ./benchmark.sh 'bend run factorial/factorial2.bend'
+./benchmark.sh 'bend run factorial/factorial.bend'
+./benchmark.sh 'bend run-c factorial/factorial2.bend'
+./benchmark.sh 'bend run-c factorial/factorial.bend'
+./benchmark.sh 'bend run-cu factorial/factorial2.bend'
+./benchmark.sh 'bend run-cu factorial/factorial.bend'
+javac factorial/Factorial.java
+./benchmark.sh 'java factorial/Factorial'
+./benchmark.sh 'python3 factorial/factorial.py'
+./benchmark.sh 'node factorial/factorial.js'
+
+./benchmark.sh 'bend run tree-sum/tree.bend'
+./benchmark.sh 'bend run-c tree-sum/tree.bend'
+./benchmark.sh 'bend run-cu tree-sum/tree.bend'
+javac tree-sum/Tree.java
+./benchmark.sh 'java tree-sum/Tree'
+./benchmark.sh 'python3 tree-sum/tree.py'
+./benchmark.sh 'node tree-sum/tree.js'
